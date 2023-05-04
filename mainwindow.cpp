@@ -56,6 +56,7 @@ void MainWindow::realtimeDataSlot()
     customPlot->xAxis->setRange(key,10, Qt::AlignRight);
      //绘图
         customPlot->replot();
+        //测试git
      //计算帧数
         //     static int frameCount;
         //     double  lastFpsKey;
